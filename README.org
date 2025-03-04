@@ -1,0 +1,18 @@
+#+title: Readme
+
+* Description
+A simple example of modern, fullstack web development.
+
+You'll find:
+- docker-compose deployment
+- a python backend (FastAPI -- HTTP and WebSockets; TortoiseORM)
+- a SvelteKit frontend with SSR, form validation, and type safety; UI with
+  Skeleton + TailwindCSS for theming.
+- an nginx reverse proxy to handle secure communication
+- postgres db
+
+* Wanna run it?
+Technically: ~cd <path-to-local-repo> && make build~
+
+This is still in the works; be advised. You may have to rebuild or adjust
+configs.
